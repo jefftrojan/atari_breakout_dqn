@@ -25,7 +25,18 @@ This file is used to evaluate the performance of the trained DQN agent in the Br
 - **Sample Action Function**: Chooses an action based on the model's predictions.
 - **Game Loop**: Runs the game, rendering the environment and executing actions based on the agent's policy.
 
-### 3. `breakout.py`
+
+### 3. `play.py`
+
+This file is used to play the game using a trained DQN model. It loads the model and plays a specified number of episodes, with a delay between actions.
+
+To play the game, run:
+
+```bash
+python play.py --model_path <path_to_model> --episodes <number_of_episodes> --delay <delay_between_actions>
+```
+
+### 4. `breakout.py`
 
 This file implements the Breakout game using Tkinter. It includes:
 
