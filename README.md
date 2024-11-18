@@ -4,6 +4,9 @@
 
 This project implements a reinforcement learning agent designed to play the classic arcade game **Breakout** using OpenAI's Gym environment and Deep Q-Learning (DQN) techniques. The agent learns to control a paddle to break bricks by bouncing a ball against them.
 
+
+<img src="atari.png" alt="Breakout Game" width="300" />
+
 ## Project Structure
 
 ### 1. `train.py`
@@ -92,6 +95,10 @@ python breakout.py
 
 This will open a window where you can play the game. The AI paddle movement logic can be integrated into this file.
 
+## Demo video 
+[Link to the video](https://drive.google.com/file/d/1xvB4ExdvAgjKtUZtslRFvxR1LXdd7_El/view?usp=sharing)
+
+
 ## Code Definitions
 
 ### Key Classes and Functions
@@ -115,5 +122,7 @@ This will open a window where you can play the game. The AI paddle movement logi
 - **downsample(observation)**: Preprocesses the observation by converting it to grayscale, cropping, resizing, and normalizing.
 
 - **main()**: The entry point for training the agent.
+
+
 
 
